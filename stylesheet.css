@@ -12,9 +12,15 @@ p {
   font-size: 15px;
 }
 #container {
+  width: 500px;
+  margin: 25em;
   background-color: hsl(0, 0%, 100%);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+#container img {
+  width: 100px;
+  height: 100px;
 }
