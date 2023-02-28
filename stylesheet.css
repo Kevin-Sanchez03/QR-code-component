@@ -1,26 +1,51 @@
 .attribution {
   text-align: center;
+  padding-top: 2em;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 body {
-  width: 1440px;
+  /* width: 1440px; */
+  display: flex;
+  margin: auto;
+  height: fit-content;
   background-color: hsl(212, 45%, 89%);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10% 20%;
 }
 p {
   font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#p1 {
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 0;
+}
+#p2 {
+  font-weight: lighter;
+  color: hsl(220, 15%, 55%);
+  margin: 0;
 }
 #container {
-  width: 500px;
-  margin: 25em;
+  padding: 1em;
+  width: 250px;
+  height: 50%;
   background-color: hsl(0, 0%, 100%);
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 #container img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
