@@ -17,20 +17,23 @@ body {
   padding: 10% 20%;
 }
 p {
+  display: flex;
   font-size: 15px;
   font-family: "Outfit", sans-serif;
   justify-content: center;
-  flex-wrap: wrap;
 }
 #p1 {
   font-weight: bold;
   color: hsl(218, 44%, 22%);
   margin-bottom: 0;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 #p2 {
   font-weight: lighter;
   color: hsl(220, 15%, 55%);
   margin: 0;
+  justify-content: center;
 }
 #container {
   padding: 1em;
