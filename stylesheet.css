@@ -28,12 +28,14 @@ p {
   margin-bottom: 0;
   justify-content: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 #p2 {
   font-weight: lighter;
   color: hsl(220, 15%, 55%);
   margin: 0;
   justify-content: center;
+  text-align: center;
 }
 #container {
   padding: 1em;
